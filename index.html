@@ -15,23 +15,51 @@
     <!--Title -->
     <title>Welcome To Portfolio</title>
     <!-- Your CSS  -->
-    
+    <link href="css/style.css" rel="stylesheet">
     <!-- Bootstrap CSS  -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Fontawesome CSS  -->
-    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
 </head>
 
 <body>
     <!-- Nav Bar -->
+    <div class="dropdown">
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Search by Category
+  </button>
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+    <a class="dropdown-item" href="#">|HTML/CSS|</a>
+    <a class="dropdown-item" href="#">|JAVA|</a>
+    <a class="dropdown-item" href="#">|C++(UnrealEngine)|</a>
+    <a class="dropdown-item" href="#">|RANDOM/MISC.|</a>
+  </div>
+</div>
     <nav class="navbar navbar-light bg-light justify-content-between">
-  <a class="navbar-brand">Navbar</a>
+  <a class="navbar-brand">Search Portfolio</a>
   <form class="form-inline">
     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
   </form>
 </nav>
-    
+
+    <button type="button" class="close" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+
+<div class="contatiner">
+    <div class="row">
+        <div class="col-md-6">
+         <a href="https://hclamponline.com/wp-content/uploads/2016/12/10840987874_156e673281_b-900x506.jpg">   
+        <img class="image1" src="https://hclamponline.com/wp-content/uploads/2016/12/10840987874_156e673281_b-900x506.jpg"></img>
+        </a>
+        <div class="col-md-6">
+        <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+        <h1>Portfolio</h1>
+        </div>
+        </div>
+    </div>
+</div>
     <!-- Header -->
     
 
@@ -54,7 +82,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
     <!-- Your Javascript -->
-    
+    <script src="js/script.js"></script>
 </body>
 
 </html>
