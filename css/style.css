@@ -2,12 +2,20 @@
 
 
 /* Header CSS */
-
+ul{
+    background-image: URL("http://arsgrafik.s3.amazonaws.com/uploads/2009/12/photoshop-textures-grunge.jpg") ;
+    font-family: monospace
+    
+}
 
 
 /* Section CSS */
-
-
+body{
+    background-image: URL("https://wallpaperscraft.com/image/grunge_surface_dark_scratches_18460_1366x768.jpg")
+}
+#Image1{
+    background-image: URL("/Screenshot 2017-11-21 at 5.15.15 PM.png")
+}
 
 /* About Section CSS */
 
